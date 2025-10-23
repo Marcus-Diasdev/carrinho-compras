@@ -264,7 +264,7 @@ input[type="number"] {
 }
 
 footer {
-    color: whitesmoke;
+    color: var(--Light-Blue, #1875E8);
     width: 100%;
     position: fixed;
     font-size: 1.2rem;
@@ -274,7 +274,7 @@ footer {
 }
 
 footer a {
-    color: whitesmoke; 
+    color: var(--Light-Blue, #1875E8);
     padding: 0%; 
     width: 100%;
     text-decoration: none;
@@ -282,6 +282,6 @@ footer a {
 }
 
 footer a:hover {
-  color: rgb(255, 255, 255);
+  color: blue;
   font-size: 1.21rem;
 }
